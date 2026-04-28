@@ -44,7 +44,7 @@ func play_sound(player, base_volume):
 	player.volume_db = linear_to_db(slider.value * base_volume)
 	player.play()
 	radius = 50 + slider.value * 200
-	circle_colour = Color(randf(), randf(), randf(), 0.8)
+	circle_colour = Color(randf(), randf(), randf())
 
 func _on_button1_pressed():
 	play_sound(audio1, vol1)

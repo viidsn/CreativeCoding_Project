@@ -48,7 +48,7 @@ offset_top = 400.0
 offset_right = 857.0
 offset_bottom = 431.0
 scale = Vector2(2, 2)
-text = "Hihat"
+text = "Hi-hat"
 
 [node name="HSlider" type="HSlider" parent="." unique_id=625608871]
 layout_mode = 0
