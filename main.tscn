@@ -98,6 +98,14 @@ offset_bottom = 493.0
 scale = Vector2(2, 2)
 text = "Press \"E\""
 
+[node name="AutoButton" type="Button" parent="." unique_id=920096437]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+scale = Vector2(2, 2)
+text = "Auto Melody: OFF"
+
 [connection signal="pressed" from="Button1" to="." method="_on_button1_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button2_pressed"]
 [connection signal="pressed" from="Button3" to="." method="_on_button3_pressed"]
+[connection signal="pressed" from="AutoButton" to="." method="_on_auto_button_pressed"]
