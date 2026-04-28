@@ -12,7 +12,6 @@ The goal of the project is to explore basic sound interaction, UI controls, and 
   Three buttons trigger different sounds (Kick, Snare, Hi-hat)
 
 - Keyboard Controls  
-  Use keys:
   - Q → Kick  
   - W → Snare  
   - E → Hi-Hat  
@@ -36,7 +35,7 @@ The goal of the project is to explore basic sound interaction, UI controls, and 
 - Sounds are played using AudioStreamPlayer
 - Volume is controlled using a slider and converted with linear_to_db
 - A timer is used to generate random sounds in Auto mode
-- Visuals are drawn using _draw() and updated every frame
+- Visuals are drawn using _draw()
 
 ---
 
