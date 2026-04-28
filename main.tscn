@@ -2,35 +2,96 @@
 
 [ext_resource type="Script" uid="uid://b7ckndm276f3g" path="res://main.gd" id="1_ig7tw"]
 
-[node name="Control" type="Node2D" unique_id=2087718325]
+[node name="Control" type="Control" unique_id=927304169]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_ig7tw")
 
-[node name="Audio1" type="AudioStreamPlayer" parent="." unique_id=1741445148]
+[node name="Audio1" type="AudioStreamPlayer" parent="." unique_id=1045542470]
 
-[node name="Audio2" type="AudioStreamPlayer" parent="." unique_id=1200910024]
+[node name="Audio2" type="AudioStreamPlayer" parent="." unique_id=927562918]
 
-[node name="Audio3" type="AudioStreamPlayer" parent="." unique_id=1812635069]
+[node name="Audio3" type="AudioStreamPlayer" parent="." unique_id=211176578]
 
-[node name="Button1" type="Button" parent="." unique_id=857167619]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="Button1" type="Button" parent="." unique_id=328797166]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 400.0
+offset_right = 240.0
+offset_bottom = 431.0
+scale = Vector2(2, 2)
 text = "Kick"
 
-[node name="Button2" type="Button" parent="." unique_id=1429720920]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="Button2" type="Button" parent="." unique_id=2030908014]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 400.0
+offset_right = 553.0
+offset_bottom = 431.0
+scale = Vector2(2, 2)
 text = "Snare"
 
-[node name="Button3" type="Button" parent="." unique_id=769614897]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="Button3" type="Button" parent="." unique_id=534751487]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 400.0
+offset_right = 857.0
+offset_bottom = 431.0
+scale = Vector2(2, 2)
 text = "Hithat"
 
-[node name="HSlider" type="HSlider" parent="." unique_id=511928721]
-offset_right = 8.0
-offset_bottom = 16.0
+[node name="HSlider" type="HSlider" parent="." unique_id=625608871]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 500.0
+offset_right = 800.0
+offset_bottom = 600.0
 max_value = 1.0
 step = 0.1
-value = 1.0
+value = 0.5
 
-[node name="Circle" type="Node2D" parent="." unique_id=1373912370]
+[node name="Circle" type="Node2D" parent="." unique_id=545418403]
+
+[node name="Label" type="Label" parent="." unique_id=847055780]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 560.0
+offset_right = 559.0
+offset_bottom = 583.0
+scale = Vector2(2, 2)
+text = "Volume"
+
+[node name="Label2" type="Label" parent="." unique_id=789521634]
+layout_mode = 0
+offset_left = 170.0
+offset_top = 470.0
+offset_right = 243.0
+offset_bottom = 493.0
+scale = Vector2(2, 2)
+text = "Press \"Q\""
+
+[node name="Label3" type="Label" parent="." unique_id=1558052299]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 470.0
+offset_right = 555.0
+offset_bottom = 493.0
+scale = Vector2(2, 2)
+text = "Press \"W\""
+
+[node name="Label4" type="Label" parent="." unique_id=828464072]
+layout_mode = 0
+offset_left = 790.0
+offset_top = 470.0
+offset_right = 859.0
+offset_bottom = 493.0
+scale = Vector2(2, 2)
+text = "Press \"E\""
+
+[connection signal="pressed" from="Button1" to="." method="_on_button1_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button3_pressed"]
