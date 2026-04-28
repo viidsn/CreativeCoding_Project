@@ -13,12 +13,12 @@ func _process(delta):
 	queue_redraw()
 
 func _draw():
-	draw_circle(Vector2(550, 300), radius, Color(randf(), randf(), randf()))
+	draw_circle(Vector2(550, 200), radius, Color(randf(), randf(), randf()))
 
 func play_sound(player):
 	player.volume_db = linear_to_db(slider.value)
 	player.play()
-	radius = 50 + slider.value * 150
+	radius = 50 + slider.value * 200
 
 func _on_button1_pressed():
 	play_sound(audio1)

@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://sken1llk8i1p"]
 
 [ext_resource type="Script" uid="uid://b7ckndm276f3g" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="AudioStream" uid="uid://c3ivpo5siparq" path="res://140_Kick_010_428.wav" id="2_0xm2m"]
+[ext_resource type="AudioStream" uid="uid://doggnlxu2jxg7" path="res://Ludwig05ClseSnare_03_705.wav" id="3_h2yge"]
+[ext_resource type="AudioStream" uid="uid://c8sksstcqotll" path="res://HiHat_01_717.wav" id="4_1bvp3"]
 
 [node name="Control" type="Control" unique_id=927304169]
 layout_mode = 3
@@ -12,10 +15,13 @@ grow_vertical = 2
 script = ExtResource("1_ig7tw")
 
 [node name="Audio1" type="AudioStreamPlayer" parent="." unique_id=1045542470]
+stream = ExtResource("2_0xm2m")
 
 [node name="Audio2" type="AudioStreamPlayer" parent="." unique_id=927562918]
+stream = ExtResource("3_h2yge")
 
 [node name="Audio3" type="AudioStreamPlayer" parent="." unique_id=211176578]
+stream = ExtResource("4_1bvp3")
 
 [node name="Button1" type="Button" parent="." unique_id=328797166]
 layout_mode = 0
@@ -42,7 +48,7 @@ offset_top = 400.0
 offset_right = 857.0
 offset_bottom = 431.0
 scale = Vector2(2, 2)
-text = "Hithat"
+text = "Hihat"
 
 [node name="HSlider" type="HSlider" parent="." unique_id=625608871]
 layout_mode = 0
