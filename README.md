@@ -1,4 +1,4 @@
-# 🎵 Creative Coding Godot Project<br>Interactive Sound Tool
+# Creative Coding Godot Project<br>Interactive Sound Tool
 
 ## 📌 Overview
 This project is a simple interactive musical tool built using Godot.  
