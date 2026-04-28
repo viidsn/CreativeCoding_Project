@@ -1,12 +1,10 @@
-# 🎵 Interactive Sound Tool (Creative Coding Godot Project)
+# 🎵 Creative Coding Godot Project<br>Interactive Sound Tool
 
 ## 📌 Overview
 This project is a simple interactive musical tool built using Godot.  
 It allows the user to play sounds, control volume, and generate a random rhythm with visual feedback.
 
 The goal of the project is to explore basic sound interaction, UI controls, and simple generative systems.
-
----
 
 ## 🎮 Features
 
@@ -33,8 +31,6 @@ The goal of the project is to explore basic sound interaction, UI controls, and 
   - changes color when a sound plays  
   - smoothly shrinks back over time  
 
----
-
 ## ⚙️ How It Works
 
 - Sounds are played using AudioStreamPlayer
@@ -52,21 +48,15 @@ The goal of the project is to explore basic sound interaction, UI controls, and 
 4. Adjust the slider for volume
 5. Enable Auto Melody for random playback
 
----
-
 ## 🎥 Demo Video
 
 [bump](https://youtu.be/R39U2wHSDGE)
-
----
 
 ## 🧰 Technologies Used
 
 - Godot Engine  
 - GDScript
-- https://www.noiiz.com for finding sounds
-
----
+- [Website for finding sounds](https://www.noiiz.com )
 
 ## ✨ Author
 
